@@ -26,12 +26,12 @@ div {
     width: 100%;
 } */
 
-.konten-1{
+.konten-head{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    margin-top: 350px;
+    /* position: absolute; */
+    margin-top: 150px;
     
 }
 
@@ -39,7 +39,25 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    margin-top: 500px;
+    /* position: absolute; */
+    margin-top: 10px;
+    
+}
+
+.konten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin-top: 10px;
+    
+}
+
+.konten-M{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin-top: 30px;
     
 }
