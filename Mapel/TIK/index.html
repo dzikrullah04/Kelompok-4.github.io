@@ -15,13 +15,15 @@
         }
 
         .konten {
-            height: 100px;
-            
-            padding-top: 100px;
-            
+            /* height: 100px; */
+            /* display: flex; */
+
+            /* padding-top: 300px; */
+
         }
+
         .isikonten {
-            
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -38,19 +40,30 @@
             color: red;
             font-size: 50px;
         }
+
         .isi {
             text-align: center;
             font-size: 30px;
 
+        }
+
+        .bege {
+            background-color: #444;
+        }
+        
+        .kartu {
+            padding-left: 75px;
+            padding-top: 50px;
+            
         }
     </style>
     <title>TIK</title>
 </head>
 
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" style="" href="#"><img class="foto" src="aset/brand.png"></a>
+            <a class="navbar-brand" style="" href="#"><img class="foto" src="/aset/brand.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -59,7 +72,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        <a class="nav-link  text-light" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
@@ -76,12 +89,12 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link active dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Mapel
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Mapel/TIK/">TIK</a></li>
+                            <li><a class="dropdown-item" href="#">TIK</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -93,10 +106,39 @@
         </div>
     </nav>
     <!-- content -->
-    <div class="konten">
-        <div>
-            <h1 class="isikonten">KELOMPOK 4</h1>
-        </div>
+    <h1 class="isikonten">Tugas TIK</h1>
+    <div class=" d-flex flex-wrap">
+        <!-- <> -->
+            <div class="ms-5 mt-4 card bege text-light" style="width: 18rem;">
+                <img src="/aset/cooming.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Tugas</h5>
+                    <p class="card-text">Keterangan Tugas</p>
+                    <a href="#" class="btn btn-primary">Lihat Tugas</a>
+                </div>
+            </div>
+        <!-- </>
+        <"> -->
+            <div class="bege ms-5 mt-4 text-light" style="width: 18rem;">
+                <img src="/aset/cooming.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Tugas</h5>
+                    <p class="card-text">Keterangan Tugas</p>
+                    <a href="#" class="btn btn-primary">Lihat Tugas</a>
+                </div>
+            </div>
+        <!-- </>
+        <> -->
+            <div class="card ms-5 bege mt-4 text-light" style="width: 18rem;">
+                <img src="/aset/cooming.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Tugas</h5>
+                    <p class="card-text">Keterangan Tugas</p>
+                    <a href="#" class="btn btn-primary">Lihat Tugas</a>
+                </div>
+            </div>
+        <!-- </> -->
+
     </div>
     <br>
     <br>
