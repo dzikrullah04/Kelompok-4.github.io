@@ -1,0 +1,65 @@
+import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*, body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #777;
+}
+.tes{
+    background-color: yellow;
+    height: 5px;
+}
+ .judul {
+    padding-top: 15px;
+    color: ;
+    font-family: 'Playfair Display', serif;
+ }
+
+ .kontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .wrap {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    background-color: #eaeaea;
+ }
+ .wrap-konten {
+    padding-inline: 10px;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+ }
+ .foto-bio {
+    height: 363px;
+    border-radius: 20px;
+    /* width: 200%; */
+ }
+ .info {
+    width: 100%;
+ }
+
+ .judul-2 {
+    text-align: center;
+ }
+ .garis {
+    height: 5px;
+    width: 95%;
+    background-color: #222;
+ }
+ .tabel {
+    border: 0;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+ }
