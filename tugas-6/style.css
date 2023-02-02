@@ -1,0 +1,45 @@
+import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*, body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #777;
+}
+
+ .judul {
+    padding-top: 15px;
+    /* color: #eaeaea; */
+    font-family: 'Playfair Display', serif;
+ }
+
+ .kontainer {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .wrap {
+   width: 90%;
+   border-radius: 30px;
+ }
+ .wrap-txt {
+   margin-left: 30px;
+   color: #eaeaea;
+   width: 70%;
+ }
+ .wrap-txt-judul {
+   margin-left: 35px;
+   color: #eaeaea;
+ }
+ .first-txt {
+   margin-top: 30px;
+ }
+iframe {
+   width: 95%;
+   height: 100vh;
+   border-radius: 10px;
+   margin-top: 25px;
+}
